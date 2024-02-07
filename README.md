@@ -1,0 +1,1 @@
+This repository is the official implementation of "Enhancing Generalization in Neural Networks: Innovations in Dropout Techniques with Sector-wise and LRP-guided Approaches" paper.
