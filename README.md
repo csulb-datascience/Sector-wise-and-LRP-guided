@@ -19,4 +19,19 @@ Our research introduces a novel approach called LRP-guided dropout to enhance ne
 
 <img width="366" alt="image" src="https://github.com/csulb-datascience/Sector-wise-and-LRP-guided/assets/44173994/b2ed599a-6a9e-4759-bc75-9c6684c95f23">
 
+## Results
+### Sector-wise dropout
+<img width="367" alt="image" src="https://github.com/csulb-datascience/Sector-wise-and-LRP-guided/assets/44173994/cbf7a38b-61dd-4449-a355-6ea2dfde5755">
+
+In this study, we investigate the effects of various dropout rates on neural network performance utilizing the California Housing Price (CHP) dataset, which includes 20,640 instances with 8 numeric attributes: median income in a block group, median house age in a block group, average number of rooms per household, average number of bedrooms per household, block group population, average number of household members, and block group geographical coordinates (latitude and longitude). The objective of the model is to accurately forecast the housing price, with the target variable expressed in units of hundreds of thousands of dollars.
+
+<img width="833" alt="image" src="https://github.com/csulb-datascience/Sector-wise-and-LRP-guided/assets/44173994/3dabfff1-4c09-48ff-8923-44bb666e3047">
+
+Comparison of training loss and validation loss as a function of dropout rate between classical dropout and Sector-wise dropout
+methods. The results from our experiments illustrate that with an increase in sector size, the performance of Sector-wise dropout begins to
+closely mirror that of classical dropout.
+
+
+### LRP-guided dropout
+
 
