@@ -34,4 +34,8 @@ closely mirror that of classical dropout.
 
 ### LRP-guided dropout
 
+This study investigates the impact of implementing LRP-guided low dropout, a methodology that involves deactivating the lowest nodes based on their absolute relevance scores.
 
+The empirical evidence presented in Figure 5 demonstrates the effectiveness of the LRP-guided dropout method. This approach not only accelerates the early stages of learning but also establishes a more stable training regime. Notably, the training loss trajectory deviates from a monotonically decreasing pattern, exhibiting minor elevations at points where the validation loss levels off, further illustrating the stabilizing effect of this method on the training dynamics.
+
+In the context of mitigating overfitting, the traditional dropout technique exhibits a distinct pattern characterized by an initial decrease in validation loss followed by an increase after a certain number of epochs. This trend is indicative of the onset of overfitting, as depicted in Figure 5. In contrast, the proposed method, the LRP-guided dropout, significantly diminishes this pattern. The validation loss under our method not only declines more rapidly at the beginning of training but also maintains consistently lower levels throughout the training duration, free from the characteristic increase associated with overfitting. This observation suggests that the LRP-guided dropout effectively prevents overfitting by modulating the training loss and enhancing regularization capabilities.
